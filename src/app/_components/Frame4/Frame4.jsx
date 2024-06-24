@@ -21,19 +21,30 @@ const Frame4 = () => {
                 <p className='text-[12px] sm:text-[14px] lg:text-[18px] leading-6 sm:leading-8 lg:leading-10'>
                     In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult to find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.
                 </p>
-                <div className='flex flex-col-reverse    lg:flex-row items-center justify-center lg:gap-12'>
+                <div className='flex flex-col-reverse lg:flex-row items-center justify-center lg:gap-8'>
                     <div className='p-2 w-full sm:w-3/4 lg:w-4/6 h-[100px] frame4-audio-bg rounded-[8px] flex gap-3 flex-row justify-center items-center'>
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className='hidden sm:inline-block' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="20" cy="20" r="20" fill="white" />
                             <path d="M16 14.82V25.18C16 25.97 16.87 26.45 17.54 26.02L25.68 20.84C26.3 20.45 26.3 19.55 25.68 19.15L17.54 13.98C16.87 13.55 16 14.03 16 14.82Z" fill="#8064A2" />
                         </svg>
-                        <svg width="468" height="2" viewBox="0 0 468 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="468" height="2" rx="1" fill="white" />
+
+                        <svg className='hidden sm:inline-block' width="460" height="12" viewBox="0 0 474 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="5" width="468" height="2" rx="1" fill="white" />
+                            <circle cx="6" cy="6" r="6" fill="#8064A2" />
                         </svg>
-                        <img src="/image1.png" alt="" className='w-[60px] h-[60px] rounded-full' />
+                        <svg className='sm:hidden' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="white" />
+                            <path d="M9.33331 8.54675V15.4534C9.33331 15.9801 9.91331 16.3001 10.36 16.0134L15.7866 12.5601C16.2 12.3001 16.2 11.7001 15.7866 11.4334L10.36 7.98675C9.91331 7.70009 9.33331 8.02009 9.33331 8.54675Z" fill="#8064A2" />
+                        </svg>
+                        <svg className='sm:hidden' width="127" height="8" viewBox="0 0 127 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="3" width="123" height="2" rx="1" fill="white" />
+                            <circle cx="4" cy="4" r="4" fill="#8064A2" />
+                        </svg>
+
+                        <img src="/image1.png" alt="" className='lg:w-[60px] lg:h-[60px] w-[32px] h-[32px] rounded-full' />
                     </div>
                     <div className='flex flex-row items-center gap-4 lg:gap-2 justify-center'>
-                        <img src="/image1.png" alt="" className='w-[60px] sm:w-[100px] h-[60px] sm:h-[100px] rounded-full m-5'/>
+                        <img src="/image1.png" alt="" className='w-[60px] sm:w-[100px] h-[60px] sm:h-[100px] rounded-full m-5' />
                         <div className='text-center lg:text-left'>
                             <p className='text-hobby-purple text-[14px] sm:text-[16px]'>Subha Nagarajan</p>
                             <p className='text-hobby-blue text-[12px] sm:text-[14px]'>Classical Dancer</p>

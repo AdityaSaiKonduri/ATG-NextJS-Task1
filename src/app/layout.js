@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={poppins.className}>
       <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <title>NextJS Task 1</title>
+        <title>ATG NextJS Task 1</title>
       </head>
       <body>{children}</body>
     </html>
